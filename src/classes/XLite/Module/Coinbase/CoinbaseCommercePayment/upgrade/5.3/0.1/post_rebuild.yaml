@@ -6,5 +6,5 @@
 # See https://www.x-cart.com/license-agreement.html for license details.
 
 XLite\Model\Payment\Method:
-  - service_name: CoinbaseCommercePayment
+  - service_name: PrivacyGatePayment
     type: N

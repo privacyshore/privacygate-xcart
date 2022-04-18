@@ -6,7 +6,7 @@
  * See https://www.x-cart.com/license-agreement.html for license details.
  */
 
-namespace XLite\Module\Coinbase\CoinbaseCommercePayment;
+namespace XLite\Module\PrivacyGate\PrivacyGatePayment;
 
 /**
  * Main module
@@ -20,7 +20,7 @@ abstract class Main extends \XLite\Module\AModule
      */
     public static function getAuthorName()
     {
-        return 'Coinbase';
+        return 'PrivacyGate';
     }
 
     /**
@@ -30,7 +30,7 @@ abstract class Main extends \XLite\Module\AModule
      */
     public static function getModuleName()
     {
-        return 'Coinbase Commerce Payment Method';
+        return 'PrivacyGate Payment Method';
     }
 
     /**
@@ -40,7 +40,7 @@ abstract class Main extends \XLite\Module\AModule
      */
     public static function getDescription()
     {
-        return 'Coinbase Commerce - Bitcoin/Bitcoin Cash/DAI/Litecoin/Ethereum/USD Coin Payments';
+        return 'PrivacyGate - Bitcoin/Bitcoin Cash/DAI/Litecoin/Ethereum/USD Coin Payments';
     }
 
     /**
@@ -94,7 +94,7 @@ abstract class Main extends \XLite\Module\AModule
      */
     public static function includeLibrary()
     {
-        require_once LC_DIR_MODULES . str_replace('/', LC_DS, 'Coinbase/CoinbaseCommercePayment/Logic/CoinbaseSDK/autoload.php');
-        require_once LC_DIR_MODULES . str_replace('/', LC_DS, 'Coinbase/CoinbaseCommercePayment/Logic/CoinbaseSDK/const.php');
+        require_once LC_DIR_MODULES . str_replace('/', LC_DS, 'PrivacyGate/PrivacyGatePayment/Logic/PrivacyGateSDK/autoload.php');
+        require_once LC_DIR_MODULES . str_replace('/', LC_DS, 'PrivacyGate/PrivacyGatePayment/Logic/PrivacyGateSDK/const.php');
     }
 }

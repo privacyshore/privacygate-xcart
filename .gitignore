@@ -1,4 +1,4 @@
-/src/classes/XLite/Module/Coinbase/CoinbaseCommercePayment/Logic/CoinbaseSDK/*
-!/src/classes/XLite/Module/Coinbase/CoinbaseCommercePayment/Logic/CoinbaseSDK/const.php
+/src/classes/XLite/Module/PrivacyGate/PrivacyGatePayment/Logic/PrivacyGateSDK/*
+!/src/classes/XLite/Module/PrivacyGate/PrivacyGatePayment/Logic/PrivacyGateSDK/const.php
 /.idea/
 /composer.lock
